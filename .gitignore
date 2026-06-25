@@ -1,0 +1,18 @@
+# Dependency directories (never push these, they are huge)
+node_modules/
+
+# Local database files (keeps your database separate from your code history)
+*.db
+*.sqlite
+
+# Environment variables (contains secret keys/passwords if you use them)
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
